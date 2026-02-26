@@ -3,6 +3,7 @@ import React from "react";
 const Messages = ({ message }) => {
   return (
     <div className="flex flex-col p-4 overflow-y-auto space-y-3">
+          
       {message.map((msg, index) => (
         <div
           key={index}
